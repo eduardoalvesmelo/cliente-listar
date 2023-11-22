@@ -1,8 +1,7 @@
-package com.cliente.listar.clientelistar.Entities;
+package com.cliente.listar.clientelistar.entities;
 
 import jakarta.persistence.*;
 
-import java.math.BigDecimal;
 import java.util.Objects;
 
 @Entity
@@ -11,23 +10,23 @@ public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
     private String cpf;
     private String nome;
 
     public Cliente() { }
 
-    public Cliente(int id, String cpf, String nome) {
+    public Cliente(Long id, String cpf, String nome) {
         this.id = id;
         this.cpf = cpf;
         this.nome = nome;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
