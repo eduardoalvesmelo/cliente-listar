@@ -1,0 +1,10 @@
+INSERT INTO tb_cliente (id, cpf, nome) VALUES (1, '123.456.789-10', 'Fulano de tal');
+INSERT INTO tb_cliente (id, cpf, nome) VALUES (2, '123.456.789-10', 'Fulano de tal');
+INSERT INTO tb_cliente (id, cpf, nome) VALUES (3, '123.456.789-10', 'Fulano de tal');
+INSERT INTO tb_cliente (id, cpf, nome) VALUES (4, '123.456.789-10', 'Fulano de tal');
+INSERT INTO tb_cliente (id, cpf, nome) VALUES (5, '123.456.789-10', 'Fulano de tal');
+INSERT INTO tb_cliente (id, cpf, nome) VALUES (6, '123.456.789-10', 'Fulano de tal');
+INSERT INTO tb_cliente (id, cpf, nome) VALUES (7, '123.456.789-10', 'Fulano de tal');
+INSERT INTO tb_cliente (id, cpf, nome) VALUES (8, '123.456.789-10', 'Fulano de tal');
+INSERT INTO tb_cliente (id, cpf, nome) VALUES (9, '123.456.789-10', 'Fulano de tal');
+INSERT INTO tb_cliente (id, cpf, nome) VALUES (10, '123.456.789-10', 'Fulano de tal');
